@@ -1,0 +1,21 @@
+{
+  "name": "package_manager",
+  "version": "0.0.1",
+  "description": "Aplicación de prueba de la clase de Web Platforms.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/.bin/mocha",
+    "lint": "./node_modules/.bin/eslint index.js",
+    "dev": "supervisor index.js"
+  },
+  "author": "Héctor Medrano",
+  "license": "ISC",
+  "dependencies": {
+    "log4js": "^6.9.1"
+  },
+  "devDependencies": {
+    "eslint": "8.57.0",
+    "mocha": "^10.7.3"
+  }
+}
